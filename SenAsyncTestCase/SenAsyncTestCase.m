@@ -1,20 +1,8 @@
 #import "SenAsyncTestCase.h"
 
+static NSTimeInterval const SenDefaultTimeoutInterval = 10.f;
+
 @implementation SenAsyncTestCase
-
-#pragma mark - default settings
-
-static NSTimeInterval __defaultTimeoutInterval = 10.f;
-
-+ (NSTimeInterval)defaultTimeoutInterval
-{
-    return __defaultTimeoutInterval;
-}
-
-+ (void)setDefaultTimeoutInterval:(NSTimeInterval)interval
-{
-    __defaultTimeoutInterval = interval;
-}
 
 #pragma mark - setUp / tearDown
 
@@ -22,7 +10,7 @@ static NSTimeInterval __defaultTimeoutInterval = 10.f;
 {
     [super setUp];
     
-    self.timeoutInterval = __defaultTimeoutInterval;
+    self.timeoutInterval = SenDefaultTimeoutInterval;
     self.finished = NO;
 }
 
