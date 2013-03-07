@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = "SenAsyncTestCase"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "a subclass of SenTestCase which is compatible with asynchronous tests."
   s.homepage     = "https://github.com/ishkawa/SenAsyncTestCase"
   s.author       = { "Yosuke Ishikawa" => "y@ishkawa.org" }
-  s.source       = { :git => "https://github.com/ishkawa/ISHTTPOperation.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/ishkawa/SenAsyncTestCase.git", :tag => "0.0.2" }
   s.platform     = :ios, '4.0'
   s.source_files = 'SenAsyncTestCase/**/*.{h,m}'
   s.license      = {
