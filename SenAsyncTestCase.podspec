@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/ishkawa/SenAsyncTestCase.git", :tag => "0.0.2" }
   s.platform     = :ios, '4.0'
   s.source_files = 'SenAsyncTestCase/**/*.{h,m}'
+  s.frameworks   = 'SenTestingKit'
   s.license      = {
     :type => 'MIT',
     :text => <<-LICENSE
