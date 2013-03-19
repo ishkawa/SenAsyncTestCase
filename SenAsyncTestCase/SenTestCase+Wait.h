@@ -4,7 +4,7 @@
 
 @property (nonatomic, getter = isWaiting) BOOL waiting;
 
-- (void)wait;
-- (void)finish;
+- (void)startWaiting;
+- (void)stopWaiting;
 
 @end

@@ -17,14 +17,16 @@ static char *const SenWaitingKey = "SenWaitingKey";
 
 #pragma mark -
 
-- (void)wait
+- (void)startWaiting
 {
+    self.waiting = YES;
+    
     do {
         [[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:.1]];
     } while (self.isWaiting);
 }
 
-- (void)finish
+- (void)stopWaiting
 {
     self.waiting = NO;
 }
