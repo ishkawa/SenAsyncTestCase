@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F83DFFF16F8099E00BA1E44 /* SenTestCase+Wait.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F83DFFE16F8099E00BA1E44 /* SenTestCase+Wait.m */; };
 		7FA94E1716E8AE3F00BE3986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA94E1616E8AE3F00BE3986 /* Foundation.framework */; };
 		7FA94E1C16E8AE3F00BE3986 /* SenAsyncTestCase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FA94E1B16E8AE3F00BE3986 /* SenAsyncTestCase.h */; };
 		7FA94E1E16E8AE3F00BE3986 /* SenAsyncTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA94E1D16E8AE3F00BE3986 /* SenAsyncTestCase.m */; };
@@ -59,6 +60,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7F83DFFD16F8099E00BA1E44 /* SenTestCase+Wait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTestCase+Wait.h"; sourceTree = "<group>"; };
+		7F83DFFE16F8099E00BA1E44 /* SenTestCase+Wait.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SenTestCase+Wait.m"; sourceTree = "<group>"; };
 		7FA94E1316E8AE3F00BE3986 /* libSenAsyncTestCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSenAsyncTestCase.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA94E1616E8AE3F00BE3986 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7FA94E1B16E8AE3F00BE3986 /* SenAsyncTestCase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenAsyncTestCase.h; sourceTree = "<group>"; };
@@ -154,6 +157,8 @@
 			children = (
 				7FA94E1B16E8AE3F00BE3986 /* SenAsyncTestCase.h */,
 				7FA94E1D16E8AE3F00BE3986 /* SenAsyncTestCase.m */,
+				7F83DFFD16F8099E00BA1E44 /* SenTestCase+Wait.h */,
+				7F83DFFE16F8099E00BA1E44 /* SenTestCase+Wait.m */,
 			);
 			path = SenAsyncTestCase;
 			sourceTree = "<group>";
@@ -330,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FA94E1E16E8AE3F00BE3986 /* SenAsyncTestCase.m in Sources */,
+				7F83DFFF16F8099E00BA1E44 /* SenTestCase+Wait.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,6 +563,7 @@
 				7FEE272A16E8D18A006DDFBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FEE272E16E8D18A006DDFBE /* Build configuration list for PBXNativeTarget "DemoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +572,7 @@
 				7FEE272C16E8D18A006DDFBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
